@@ -36,7 +36,7 @@ function makeList(arr) {
   }
   listHTML += '</ol>';
   return listHTML;
-} // As is is jsut a string but when added to the webpage the browser will convert it and display it as an HTML ordered list.
+} // As is is just a string but when added to the webpage the browser will convert it and display it as an HTML ordered list.
 
 // for loop to ask q's and check if the user aswered the q correctly
 for (var i = 0; i < qAndA.length; i += 1) {
